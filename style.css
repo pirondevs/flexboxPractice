@@ -28,7 +28,14 @@
 .login{
  margin-left: 20px;
 }
-
+.signup{
+ margin-left: auto;
+}
+.social,
+.subscribe{
+ align-self: flex-end;
+ margin-bottom: 20px;
+}
 .header-container{
  color: #5995DA;
  background-color: #d6e9fe;
@@ -56,4 +63,34 @@
  display: flex;
  justify-content:center;
  flex-wrap: wrap;
+ flex-direction: row;
+ align-items: center;
+}
+
+.first-item {
+ order: 1;
+}
+
+.last-item{
+ order: -1;
+}
+
+/* FOOTER STYLING */
+.footer{
+ display: flex;
+ justify-content: space-between;
+}
+
+.footer-item{
+ border: 1px solid #fff;
+ background-color: #d6e9fe;
+ height: 200px;
+ flex: 1;
+}
+
+.footer-one,
+.footer-three{
+ background-color: #5995DA;
+ flex: initial;
+ width: 300px;
 }
